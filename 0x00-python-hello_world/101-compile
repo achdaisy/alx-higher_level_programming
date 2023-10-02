@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 -m compileall -b $PYFILnumber = 98number = 98E
+python3 -m compileall -b "$PYFILE"
