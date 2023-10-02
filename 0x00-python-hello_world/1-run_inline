@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$PYCODE" |python3 - #the '-' is tell python to read from stdin
