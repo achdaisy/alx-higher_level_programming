@@ -52,9 +52,12 @@ class Rectangle:
             return (self.__width * 2) + (self.__height * 2)
 
     def __str__(self):
-        """Returns a representation of the rectangle
+        """Returns a representation of the rectangle.
+
+
         Uses the # symbol.
         """
         if self.__width == 0 or self.__height == 0:
             return("")
         return "\n".join(['#' * self.__width for _ in range(self.__height)])
+
